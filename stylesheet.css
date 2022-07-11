@@ -1,0 +1,155 @@
+*{
+    margin-top: 3px;
+    padding: 0;
+    font-family: font-family: 'Roboto Condensed', sans-serif;
+}
+/* Star a Style of main */
+.flex-box{
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    font-size: 40px;
+    background-color:rgb(101,193,221);
+
+}
+.flex{
+    align-items: center;
+}
+
+.jefecarusel{
+    display: flex;
+    margin: 15px;
+    
+}
+
+.seccionprimera {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.titulo{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.titulo .tytul{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.titulo p{
+    font-size: 25px;
+    text-align: center;
+    margin: 15px;
+    padding: 1rem;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.invitacion{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(101,193,221);
+}
+.parrafo-invitacion{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.parrafo-invitacion h3{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.parrafo-invitacion p{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.seccionReferencias{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.seccionReferencias h3{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 1rem;
+    text-align: center;
+}
+.seccionReferencias p{
+    display: flex;
+    font-size: 35px;
+    text-align: center;
+    padding: 1em;
+}
+
+.seccionhijo{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(101,193,221);
+}
+.seccionhijouno{
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.seccionhijouno p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* finish style of main*/
+
+/* start the footer  */
+.redessociales {
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: teal;
+    margin-right: 5px;
+    text-align: center;
+}
+.grupo2 {
+    padding-bottom: 1px;
+    text-align: center;
+    color: white;
+    background-color: rgb(101, 193, 221);
+}
+.h3 {  color: teal;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+}
+.nuestroLogo {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* finish the footer  */

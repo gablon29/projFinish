@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.pie-Pagina{
+    width: 100%;
+    background-color: white;
+}
+.pie-Pagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-Pagina .grupo1 .box figure{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-Pagina .grupo1 .box figure img{
+    width: 250px;
+}
+.pie-Pagina .grupo1 .box h2{
+    color: teal;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-Pagina .grupo1 .box p{
+    color: gray;
+    margin-bottom: 10px;
+    
+}
+.enlace{
+    text-decoration: none;
+}
+.redessociales{
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: teal;
+    margin-right: 5px;
+    text-align: center;
+}
+.pie-Pagina .grupo2 {
+    padding: 5px 3px;
+    text-align: center;
+    color: gray;
+}
